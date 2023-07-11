@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora de IMC</title>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/style/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Calculadora de IMC</h1>
+        </header>
+        <main>
+            <article class="classifications">
+                <h2>Classificação dos IMC'S</h2>
+                <div class="classification-imc-area">
+                    <div class="classification class-1">Abaixo do peso - Abaixo de 18,5</div>
+                    <div class="classification class-2">Peso ideal - Entre 18,5 e 24,9</div>
+                    <div class="classification class-3">Sobrepeso - Entre 25 e 29,9</div>
+                    <div class="classification class-4">Obesidade I - Entre 30 e 34,9</div>
+                    <div class="classification class-5">Obesidade II - Entre 35 e 39,9</div>
+                    <div class="classification class-6">Obesidade III - Acima de 40</div>
+                </div>
+            </article>
+
+            <section>
+                <div class="infos-area">
+                    <label for="height">
+                        Altura:
+                        <input type="number" name="height" id="height" autofocus placeholder="Sua altura EX: 1.85">
+                    </label>
+                    
+
+                    <label for="weight">
+                        Peso:
+                        <input type="number" name="weight" id="weight" placeholder="Seu peso EX: 75.5">
+                    </label>
+                </div>
+
+                <div class="button-area">
+                    <button class="button-calc">Calcular IMC</button>
+                </div>
+            </section>
+        </main>
+
+        <script src="assets/scripts/script.js"></script>
+    </body>
+</html>

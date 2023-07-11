@@ -1,0 +1,134 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', Arial, Verdana;
+}
+
+:root {
+    --background: #010352;
+    --font-main: #ffffff;
+    --disabled: #888888;
+    --class-1: cyan;
+    --class-2: #00ff00;
+    --class-3: yellow;
+    --class-4: orangered;
+    --class-5: #ff2222;
+    --class-6: #ff0000;
+}
+
+/* Header */
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background);
+    color: var(--font-main);
+}
+
+/* Body */
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, var(--background), var(--background), #000000);;
+}
+
+
+/* Classificações de IMC'S */
+
+.classifications {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.classifications h2 {
+    color: var(--font-main);
+    margin: 0px 0px 1rem;
+}
+
+
+.classification-imc-area {
+    height: 250px;
+    background: var(--font-main);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.classification-imc-area .classification {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.class-1 {background-color: var(--class-1);}
+.class-2 {background-color: var(--class-2);}
+.class-3 {background-color: var(--class-3);}
+.class-4 {background-color: var(--class-4);}
+.class-5 {background-color: var(--class-5);}
+.class-6 {background-color: var(--class-6);}
+
+.class-1, .class-2, .class-3 {color: #000000;}
+.class-4, .class-5, .class-6 {color: var(--font-main);}
+
+
+/* Inputs and button */
+
+.infos-area {
+    margin: 1.5rem 0px;
+    display:flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.infos-area label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+
+    color: var(--font-main);
+}
+
+.infos-area input {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    padding: 3px 8px;
+}
+
+
+.button-area {
+    display: flex;
+    justify-content: center;
+}
+.button-calc {
+    font-size: 1.5rem;
+    padding: 10px 1.5rem;
+    background: var(--font-main);
+    color: var(--background);
+
+    border-radius: 5px;
+}
+
+
+.disabled {
+    background-color: var(--disabled)
+}
+
+
+
+
+/* Responsividade */
+
+
+@media (max-width: 520px) {
+    .infos-area {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+}
