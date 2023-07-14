@@ -146,6 +146,11 @@ body {
 
 
 @media (max-width: 520px) {
+    body {
+        height: auto;
+        padding: 2rem 0rem;
+    }
+
     .infos-area {
         flex-direction: column;
         width: 100%;
