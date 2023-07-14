@@ -77,6 +77,26 @@ body {
 .class-4, .class-5, .class-6 {color: var(--font-main);}
 
 
+
+
+/* Imc-area */
+
+.imc-area {
+    color: var(--font-main);
+    font-size: 1.2rem;
+    margin: 1rem 0rem;
+    text-align: center;
+
+    transition: 1s all ease;
+    opacity: 0;
+}
+
+
+
+
+
+
+
 /* Inputs and button */
 
 .infos-area {
