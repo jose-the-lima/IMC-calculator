@@ -81,19 +81,19 @@ body {
 
 /* Imc-area */
 
-.imc-area {
+.imc-area-response {
     color: var(--font-main);
     font-size: 1.2rem;
     margin: 1rem 0rem;
     text-align: center;
 
     transition: 1s all ease;
-    opacity: 0;
 }
 
 
-
-
+.invisible {
+    opacity: 0;
+}
 
 
 
