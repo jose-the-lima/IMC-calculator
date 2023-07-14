@@ -1,5 +1,7 @@
 # IMC-calculator
 
+<a href="https://jose-the-lima.github.io/IMC-calculator/">Projeto Aqui</a>
+
 ## projeto:
 
 <img src="https://github.com/jose-the-lima/IMC-calculator/assets/120755345/0a4d1fe6-755b-458b-bf93-5df3ffe2011e" alt="">
